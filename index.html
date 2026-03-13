@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarePlus Medical Clinic | Quality Healthcare You Can Trust</title>
+    <meta name="description" content="CarePlus Medical Clinic offers compassionate care with modern medical expertise. Book your appointment today.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="ph-fill ph-heartbeat"></i>
+                Care<span>Plus</span>
+            </a>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#doctors" class="nav-link">Doctors</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#appointment" class="btn btn-primary nav-cta">Book Appointment</a>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">Welcome to CarePlus</span>
+                    <h1 class="hero-title">Quality Healthcare <br>You Can <span>Trust</span></h1>
+                    <p class="hero-subtitle">Compassionate care with modern medical expertise. We put your well-being first with state-of-the-art facilities and experienced specialists.</p>
+                    <div class="hero-actions">
+                        <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+                        <a href="#services" class="btn btn-outline">Our Services</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <!-- Image placeholder; we will generate an image and put here -->
+                    <div class="image-mask">
+                        <img src="assets/images/hero-doctor.png" alt="Friendly doctor smiling at patient" class="hero-image" id="hero-img-placeholder">
+                        <div class="experience-badge">
+                            <i class="ph-fill ph-star"></i>
+                            <div>
+                                <span class="badge-num">20+</span>
+                                <span class="badge-text">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Decorative shape -->
+            <div class="hero-shape"></div>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="about section">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="assets/images/about-clinic.png" alt="Modern clinic waiting area" class="about-image" id="about-img-placeholder">
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-num">10k+</h3>
+                            <p>Happy Patients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-num">25+</h3>
+                            <p>Specialists</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-badge">About Our Clinic</div>
+                    <h2 class="section-title">Committed to Your <span>Health</span> & Happiness</h2>
+                    <p class="section-description">At CarePlus Medical Clinic, our mission is to provide compassionate, high-quality, and affordable healthcare services. We follow a patient-first approach, ensuring that every individual receives personalized attention and the best medical treatment possible.</p>
+                    <p class="section-description">Equipped with modern technology and a team of dedicated health professionals, we are here to support your health journey at every step.</p>
+                    
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> Modern equipment and technology</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Emergency assistance available</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Experienced medical professionals</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary mt-4">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section bg-soft">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-badge">Our Services</div>
+                    <h2 class="section-title">Comprehensive <span>Medical Care</span></h2>
+                    <p class="section-subtitle">We offer a wide range of medical services to take care of you and your family.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="ph ph-stethoscope"></i></div>
+                        <h3 class="service-title">General Consultation</h3>
+                        <p class="service-desc">Comprehensive medical check-ups and routine consultations with our experienced physicians.</p>
+                        <a href="#appointment" class="service-link">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon"><i class="ph ph-flask"></i></div>
+                        <h3 class="service-title">Diagnostics</h3>
+                        <p class="service-desc">State-of-the-art laboratory and imaging services for accurate and timely diagnoses.</p>
+                        <a href="#appointment" class="service-link">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon"><i class="ph ph-shield-plus"></i></div>
+                        <h3 class="service-title">Preventive Care</h3>
+                        <p class="service-desc">Health screenings, counseling, and wellness programs to prevent illness before it starts.</p>
+                        <a href="#appointment" class="service-link">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon"><i class="ph ph-syringe"></i></div>
+                        <h3 class="service-title">Vaccination</h3>
+                        <p class="service-desc">Routine immunizations for children and adults to protect against communicable diseases.</p>
+                        <a href="#appointment" class="service-link">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctors Section -->
+        <section id="doctors" class="doctors section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-badge">Meet Our Specialists</div>
+                    <h2 class="section-title">Expert <span>Medical Team</span></h2>
+                    <p class="section-subtitle">Our dedicated doctors bring years of experience and compassionate care to every patient.</p>
+                </div>
+                
+                <div class="doctors-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://placehold.co/400x500/f8fafc/0d9488?text=Dr.+Sarah+Johnson" alt="Dr. Sarah Johnson" id="doc1-placeholder">
+                        </div>
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">Dr. Sarah Johnson</h3>
+                            <p class="doctor-spec">Cardiologist</p>
+                            <div class="doctor-exp"><i class="ph-fill ph-certificate"></i> 15+ years experience</div>
+                            <div class="doctor-socials">
+                                <a href="#"><i class="ph-fill ph-linkedin-logo"></i></a>
+                                <a href="#"><i class="ph-fill ph-twitter-logo"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://placehold.co/400x500/f8fafc/0d9488?text=Dr.+Michael+Lee" alt="Dr. Michael Lee" id="doc2-placeholder">
+                        </div>
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">Dr. Michael Lee</h3>
+                            <p class="doctor-spec">General Practitioner</p>
+                            <div class="doctor-exp"><i class="ph-fill ph-certificate"></i> 10+ years experience</div>
+                            <div class="doctor-socials">
+                                <a href="#"><i class="ph-fill ph-linkedin-logo"></i></a>
+                                <a href="#"><i class="ph-fill ph-twitter-logo"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://placehold.co/400x500/f8fafc/0d9488?text=Dr.+Emily+Chen" alt="Dr. Emily Chen" id="doc3-placeholder">
+                        </div>
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">Dr. Emily Chen</h3>
+                            <p class="doctor-spec">Pediatrician</p>
+                            <div class="doctor-exp"><i class="ph-fill ph-certificate"></i> 8+ years experience</div>
+                            <div class="doctor-socials">
+                                <a href="#"><i class="ph-fill ph-linkedin-logo"></i></a>
+                                <a href="#"><i class="ph-fill ph-twitter-logo"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Appointment Section -->
+        <section id="appointment" class="appointment section bg-soft">
+            <div class="container appointment-container">
+                <div class="appointment-content">
+                    <div class="section-badge">Book Now</div>
+                    <h2 class="section-title">Schedule Your <span>Appointment</span></h2>
+                    <p class="section-description">Fill out the form to request an appointment. Our staff will get back to you to confirm your preferred time and date.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="method">
+                            <div class="method-icon"><i class="ph-fill ph-phone-call"></i></div>
+                            <div>
+                                <h4>Emergency Case</h4>
+                                <p>+1 (800) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <div class="method-icon"><i class="ph-fill ph-envelope"></i></div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>contact@careplusclinic.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="appointment-card">
+                    <form id="appointmentForm" class="appointment-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(123) 456-7890">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Select Service</label>
+                                <select id="service" name="service" required>
+                                    <option value="" disabled selected>Select a service</option>
+                                    <option value="general">General Consultation</option>
+                                    <option value="diagnostics">Diagnostics</option>
+                                    <option value="preventive">Preventive Care</option>
+                                    <option value="vaccination">Vaccination</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Message (Optional)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Briefly describe your symptoms or reason for visit"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Book Appointment</button>
+                        <p class="form-success" id="formSuccessMessage">Thank you! Your request has been received.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-badge">Testimonials</div>
+                    <h2 class="section-title">What Our Patients <span>Say</span></h2>
+                    <p class="section-subtitle">Real experiences from our valued patients.</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The doctors and staff at CarePlus are incredibly professional and compassionate. I always feel listened to and well cared for. Highly recommend!"</p>
+                        <div class="patient-info">
+                            <div class="patient-avatar">SJ</div>
+                            <div>
+                                <h4>Sarah Jenkins</h4>
+                                <span>Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Very clean facility and short wait times. Dr. Lee took the time to explain everything clearly. Best medical clinic I've been to."</p>
+                        <div class="patient-info">
+                            <div class="patient-avatar">RM</div>
+                            <div>
+                                <h4>Robert Miller</h4>
+                                <span>Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i>
+                        </div>
+                        <p class="testimonial-text">"Brought my daughter here for her vaccinations. Dr. Chen is amazing with kids, made the whole experience stress-free."</p>
+                        <div class="patient-info">
+                            <div class="patient-avatar">AW</div>
+                            <div>
+                                <h4>Amanda Wilson</h4>
+                                <span>Parent</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section bg-soft">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <div class="section-badge">Get in Touch</div>
+                    <h2 class="section-title">Visit Our <span>Clinic</span></h2>
+                    
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <div class="detail-icon"><i class="ph-fill ph-map-pin"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>123 Healthway Drive, Suite 100<br>Medical District, NY 10001</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon"><i class="ph-fill ph-clock"></i></div>
+                            <div>
+                                <h4>Operating Hours</h4>
+                                <p>Mon - Fri: 8:00 AM - 8:00 PM<br>Sat - Sun: 9:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon"><i class="ph-fill ph-phone-call"></i></div>
+                            <div>
+                                <h4>Contact Info</h4>
+                                <p>Phone: +1 (800) 123-4567<br>Email: hello@careplusclinic.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <!-- Embed Google Map Placeholder -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2530138986857!2d-73.99044568459381!3d40.756403079326935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620245642030!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">
+                    <i class="ph-fill ph-heartbeat"></i>
+                    Care<span>Plus</span>
+                </a>
+                <p class="footer-text">Providing compassionate care with modern medical expertise. Your health is our top priority.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#doctors">Meet the Doctors</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4 class="footer-heading">Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">General Consultation</a></li>
+                    <li><a href="#">Pediatrics</a></li>
+                    <li><a href="#">Cardiology</a></li>
+                    <li><a href="#">Vaccinations</a></li>
+                    <li><a href="#">Diagnostics</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 CarePlus Medical Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
